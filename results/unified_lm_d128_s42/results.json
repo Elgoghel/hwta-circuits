@@ -1,0 +1,123 @@
+{
+  "params": 310135,
+  "vocab_size": 118,
+  "max_len": 384,
+  "config": {
+    "smoke": true,
+    "steps": 400,
+    "d_slot": 128,
+    "n_prop": 4,
+    "batch": 8,
+    "lr": 0.0005,
+    "warmup": 200,
+    "log_every": 50,
+    "seed": 42
+  },
+  "history": [
+    {
+      "step": 1,
+      "loss": 4.845203876495361,
+      "per_task_acc": {
+        "command": 0.0,
+        "family": 0.0,
+        "math": 0.0
+      }
+    },
+    {
+      "step": 50,
+      "loss": 4.255919456481934,
+      "per_task_acc": {
+        "command": 0.02164104448096587,
+        "family": 0.03408258509578057,
+        "story": 0.04263005725806579,
+        "code": 0.01253150190625872,
+        "math": 0.012820512916033085
+      }
+    },
+    {
+      "step": 100,
+      "loss": 4.7047929763793945,
+      "per_task_acc": {
+        "command": 0.0598329970515088,
+        "family": 0.04396944137545407,
+        "story": 0.14343893041761666,
+        "code": 0.0464294976554811,
+        "math": 0.006837606888550979
+      }
+    },
+    {
+      "step": 150,
+      "loss": 2.7042291164398193,
+      "per_task_acc": {
+        "command": 0.15849124666303396,
+        "family": 0.10194863770157099,
+        "story": 0.23394508603960276,
+        "code": 0.059124693561058775,
+        "math": 0.0
+      }
+    },
+    {
+      "step": 200,
+      "loss": 2.6344637870788574,
+      "per_task_acc": {
+        "command": 0.3599562215805054,
+        "family": 0.21397286474704744,
+        "story": 0.276706098690629,
+        "code": 0.06473389489853636,
+        "math": 0.005833333432674408
+      }
+    },
+    {
+      "step": 250,
+      "loss": 2.5435092449188232,
+      "per_task_acc": {
+        "command": 0.6112063908576966,
+        "family": 0.35443182330578565,
+        "story": 0.2890615901350975,
+        "code": 0.06673394425550877,
+        "math": 0.016250000149011613
+      }
+    },
+    {
+      "step": 300,
+      "loss": 2.6751534938812256,
+      "per_task_acc": {
+        "command": 0.6700094321370125,
+        "family": 0.43942341674119234,
+        "story": 0.2945818203687668,
+        "code": 0.07983281839638949,
+        "math": 0.08591666758060455
+      }
+    },
+    {
+      "step": 350,
+      "loss": 2.4736053943634033,
+      "per_task_acc": {
+        "command": 0.6842546255886555,
+        "family": 0.45966259501874446,
+        "story": 0.2991618486493826,
+        "code": 0.08767909666523338,
+        "math": 0.19100000225007535
+      }
+    },
+    {
+      "step": 400,
+      "loss": 2.643282413482666,
+      "per_task_acc": {
+        "command": 0.7242505607008934,
+        "family": 0.4634249994903803,
+        "story": 0.29765895947813986,
+        "code": 0.09584384383633733,
+        "math": 0.23133333586156368
+      }
+    }
+  ],
+  "generation": {
+    "story": "story: Once upon a time<sep>e the w t t the t t the and t the and and the and t t the the t and the t t t t ",
+    "math": "math: Janet has 3 apples and buys 2 more. How many does she have?<sep>20000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "command": "command: jump twice<sep>LOK LK LK LK LK JUN LOOOOOK LOOOOOOOK LOOOK WALOK LK LK WALK LOOOOK WALK WALK WA",
+    "family": "family: Alice is Bob's mother. Bob is Carol's father. query: Alice, Carol<sep>grandangrandanddandandandandandandandandandandandandandandandandandandandandanda",
+    "code": "code: def f(s): return s[::-1]\nf('hello')<sep>'s JUMP WALOOOK WALOOOOOOOOOOOOOK WALK LOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOK WALOOOOO"
+  },
+  "train_time": 80.03000974655151
+}

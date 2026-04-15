@@ -1,0 +1,119 @@
+{
+  "final": {
+    "acc_train": 1.0,
+    "acc_jump_comp": 0.029000001028180122
+  },
+  "history": [
+    {
+      "step": 250,
+      "acc_train": 1.0,
+      "acc_jump_comp": 0.2540000081062317
+    },
+    {
+      "step": 500,
+      "acc_train": 1.0,
+      "acc_jump_comp": 0.27400001883506775
+    },
+    {
+      "step": 750,
+      "acc_train": 1.0,
+      "acc_jump_comp": 0.2980000078678131
+    },
+    {
+      "step": 1000,
+      "acc_train": 1.0,
+      "acc_jump_comp": 0.2880000174045563
+    },
+    {
+      "step": 1250,
+      "acc_train": 1.0,
+      "acc_jump_comp": 0.18000000715255737
+    },
+    {
+      "step": 1500,
+      "acc_train": 1.0,
+      "acc_jump_comp": 0.15800000727176666
+    },
+    {
+      "step": 1750,
+      "acc_train": 1.0,
+      "acc_jump_comp": 0.16600000858306885
+    },
+    {
+      "step": 2000,
+      "acc_train": 1.0,
+      "acc_jump_comp": 0.15400001406669617
+    },
+    {
+      "step": 2250,
+      "acc_train": 1.0,
+      "acc_jump_comp": 0.14600001275539398
+    },
+    {
+      "step": 2500,
+      "acc_train": 1.0,
+      "acc_jump_comp": 0.14600001275539398
+    },
+    {
+      "step": 2750,
+      "acc_train": 1.0,
+      "acc_jump_comp": 0.14800000190734863
+    },
+    {
+      "step": 3000,
+      "acc_train": 1.0,
+      "acc_jump_comp": 0.18200001120567322
+    },
+    {
+      "step": 3250,
+      "acc_train": 1.0,
+      "acc_jump_comp": 0.14600001275539398
+    },
+    {
+      "step": 3500,
+      "acc_train": 1.0,
+      "acc_jump_comp": 0.1600000113248825
+    },
+    {
+      "step": 3750,
+      "acc_train": 1.0,
+      "acc_jump_comp": 0.14400000870227814
+    },
+    {
+      "step": 4000,
+      "acc_train": 1.0,
+      "acc_jump_comp": 0.1340000033378601
+    },
+    {
+      "step": 4250,
+      "acc_train": 1.0,
+      "acc_jump_comp": 0.024000000208616257
+    },
+    {
+      "step": 4500,
+      "acc_train": 1.0,
+      "acc_jump_comp": 0.03400000184774399
+    },
+    {
+      "step": 4750,
+      "acc_train": 1.0,
+      "acc_jump_comp": 0.04000000283122063
+    },
+    {
+      "step": 5000,
+      "acc_train": 1.0,
+      "acc_jump_comp": 0.02800000086426735
+    }
+  ],
+  "params": 846981,
+  "config": {
+    "d_model": 128,
+    "n_layers": 4,
+    "n_heads": 4,
+    "n_steps": 5000,
+    "batch_size": 64,
+    "lr": 0.0003,
+    "seed": 13
+  },
+  "train_time": 79.67277884483337
+}

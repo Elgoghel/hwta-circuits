@@ -1,0 +1,45 @@
+{
+  "history": [
+    {
+      "step": 100,
+      "eval": {
+        "graph": 0.484375,
+        "clutrr": 0.078125,
+        "cruxmini": 0.09375,
+        "scan": 0.0
+      }
+    },
+    {
+      "step": 200,
+      "eval": {
+        "graph": 0.46875,
+        "clutrr": 0.078125,
+        "cruxmini": 0.234375,
+        "scan": 0.0
+      }
+    }
+  ],
+  "params": 526173,
+  "config": {
+    "smoke": true,
+    "steps": 200,
+    "batch": 16,
+    "d_slot": 128,
+    "n_groups": 16,
+    "group_size": 16,
+    "n_prop": 8,
+    "lr": 0.0003,
+    "warmup": 200,
+    "log_every": 20,
+    "eval_every": 100,
+    "tasks": "graph,clutrr,cruxmini,scan",
+    "seed": 42
+  },
+  "tasks": [
+    "graph",
+    "clutrr",
+    "cruxmini",
+    "scan"
+  ],
+  "total_seconds": 51.37578296661377
+}

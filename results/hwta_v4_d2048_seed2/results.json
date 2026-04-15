@@ -1,0 +1,40 @@
+{
+  "circuit": {
+    "train_acc": 0.6313846153846154,
+    "ood_acc": 0.6156666666666667,
+    "depth_3": 0.509,
+    "depth_5": 0.881,
+    "depth_8": 0.613,
+    "depth_12": 0.572,
+    "depth_20": 0.56,
+    "depth_30": 0.549,
+    "params": 97200131,
+    "time": 1564.232527256012,
+    "config": {
+      "d_slot": 2048,
+      "n_groups": 16,
+      "group_size": 16,
+      "n_steps_prop": 24,
+      "n_heads": 8,
+      "micro_batch": 12,
+      "accum_steps": 4,
+      "effective_batch": 48,
+      "train_depths": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "base_lr": 3e-05
+    }
+  }
+}

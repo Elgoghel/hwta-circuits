@@ -1,0 +1,27 @@
+{
+  "params": 269657,
+  "vocab_size": 88,
+  "max_len": 128,
+  "n_epochs": 3,
+  "history": [
+    {
+      "epoch": 0,
+      "loss": 1.8074862104415894,
+      "acc": 0.47493984375
+    },
+    {
+      "epoch": 1,
+      "loss": 1.2293504100799562,
+      "acc": 0.6332359375
+    },
+    {
+      "epoch": 2,
+      "loss": 1.0186042704582214,
+      "acc": 0.69291640625
+    }
+  ],
+  "final_loss": 1.0186042704582214,
+  "final_acc": 0.69291640625,
+  "generated_sample": "Once upon a time, there was a little girl named Lily. She loved to play outside in the park with his friends. One da",
+  "train_time": 260.96640634536743
+}

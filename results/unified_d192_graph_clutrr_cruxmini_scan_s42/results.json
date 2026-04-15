@@ -1,0 +1,81 @@
+{
+  "history": [
+    {
+      "step": 250,
+      "eval": {
+        "graph": 0.421875,
+        "clutrr": 0.046875,
+        "cruxmini": 0.21875,
+        "scan": 0.0
+      }
+    },
+    {
+      "step": 500,
+      "eval": {
+        "graph": 0.46875,
+        "clutrr": 0.078125,
+        "cruxmini": 0.296875,
+        "scan": 0.0
+      }
+    },
+    {
+      "step": 750,
+      "eval": {
+        "graph": 0.515625,
+        "clutrr": 0.078125,
+        "cruxmini": 0.3125,
+        "scan": 0.0
+      }
+    },
+    {
+      "step": 1000,
+      "eval": {
+        "graph": 0.46875,
+        "clutrr": 0.03125,
+        "cruxmini": 0.3125,
+        "scan": 0.0
+      }
+    },
+    {
+      "step": 1250,
+      "eval": {
+        "graph": 0.515625,
+        "clutrr": 0.0625,
+        "cruxmini": 0.25,
+        "scan": 0.0
+      }
+    },
+    {
+      "step": 1500,
+      "eval": {
+        "graph": 0.453125,
+        "clutrr": 0.046875,
+        "cruxmini": 0.28125,
+        "scan": 0.0
+      }
+    }
+  ],
+  "params": 1133277,
+  "config": {
+    "smoke": false,
+    "steps": 1500,
+    "batch": 16,
+    "d_slot": 192,
+    "n_groups": 16,
+    "group_size": 16,
+    "n_prop": 12,
+    "lr": 0.0003,
+    "warmup": 150,
+    "log_every": 50,
+    "eval_every": 250,
+    "tasks": "graph,clutrr,cruxmini,scan",
+    "seed": 42
+  },
+  "tasks": [
+    "graph",
+    "clutrr",
+    "cruxmini",
+    "scan"
+  ],
+  "total_seconds": 455.99959993362427
+}

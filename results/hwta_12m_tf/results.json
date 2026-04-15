@@ -1,0 +1,18 @@
+{
+  "train_acc": 1.0,
+  "ood_acc": 0.8083333333333333,
+  "depth_3": 1.0,
+  "depth_5": 1.0,
+  "depth_8": 1.0,
+  "depth_12": 0.602,
+  "depth_20": 0.721,
+  "depth_30": 0.555,
+  "params": 11947394,
+  "time": 179.60106325149536,
+  "config": {
+    "d_model": 384,
+    "n_heads": 8,
+    "n_layers": 6,
+    "n_steps": 1200
+  }
+}

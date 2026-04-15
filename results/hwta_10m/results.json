@@ -1,0 +1,19 @@
+{
+  "train_acc": 1.0,
+  "ood_acc": 0.7963333333333333,
+  "depth_3": 1.0,
+  "depth_5": 1.0,
+  "depth_8": 1.0,
+  "depth_12": 0.581,
+  "depth_20": 0.625,
+  "depth_30": 0.574,
+  "params": 12070659,
+  "time": 464.46611976623535,
+  "config": {
+    "d_slot": 768,
+    "n_groups": 16,
+    "group_size": 16,
+    "n_steps_prop": 24,
+    "batch_size": 48
+  }
+}

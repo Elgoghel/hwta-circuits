@@ -1,0 +1,118 @@
+{
+  "final": {
+    "acc_train": 1.0,
+    "acc_test_max": 1.0
+  },
+  "history": [
+    {
+      "step": 250,
+      "acc_train": 0.5640000104904175,
+      "acc_test_max": 0.2840000092983246
+    },
+    {
+      "step": 500,
+      "acc_train": 0.6540000438690186,
+      "acc_test_max": 0.3320000171661377
+    },
+    {
+      "step": 750,
+      "acc_train": 0.6860000491142273,
+      "acc_test_max": 0.39000001549720764
+    },
+    {
+      "step": 1000,
+      "acc_train": 0.7300000190734863,
+      "acc_test_max": 0.44200003147125244
+    },
+    {
+      "step": 1250,
+      "acc_train": 0.7440000176429749,
+      "acc_test_max": 0.43800002336502075
+    },
+    {
+      "step": 1500,
+      "acc_train": 0.7880000472068787,
+      "acc_test_max": 0.5860000252723694
+    },
+    {
+      "step": 1750,
+      "acc_train": 0.8480000495910645,
+      "acc_test_max": 0.7040000557899475
+    },
+    {
+      "step": 2000,
+      "acc_train": 0.9200000166893005,
+      "acc_test_max": 0.8240000605583191
+    },
+    {
+      "step": 2250,
+      "acc_train": 0.968000054359436,
+      "acc_test_max": 0.9360000491142273
+    },
+    {
+      "step": 2500,
+      "acc_train": 0.9940000176429749,
+      "acc_test_max": 0.9940000176429749
+    },
+    {
+      "step": 2750,
+      "acc_train": 1.0,
+      "acc_test_max": 1.0
+    },
+    {
+      "step": 3000,
+      "acc_train": 1.0,
+      "acc_test_max": 1.0
+    },
+    {
+      "step": 3250,
+      "acc_train": 1.0,
+      "acc_test_max": 1.0
+    },
+    {
+      "step": 3500,
+      "acc_train": 1.0,
+      "acc_test_max": 1.0
+    },
+    {
+      "step": 3750,
+      "acc_train": 1.0,
+      "acc_test_max": 1.0
+    },
+    {
+      "step": 4000,
+      "acc_train": 1.0,
+      "acc_test_max": 1.0
+    },
+    {
+      "step": 4250,
+      "acc_train": 1.0,
+      "acc_test_max": 1.0
+    },
+    {
+      "step": 4500,
+      "acc_train": 1.0,
+      "acc_test_max": 1.0
+    },
+    {
+      "step": 4750,
+      "acc_train": 1.0,
+      "acc_test_max": 1.0
+    },
+    {
+      "step": 5000,
+      "acc_train": 1.0,
+      "acc_test_max": 1.0
+    }
+  ],
+  "params": 4000,
+  "config": {
+    "d_inner": 32,
+    "n_passes": 4,
+    "n_steps": 5000,
+    "batch_size": 128,
+    "lr": 0.003,
+    "seed": 1337
+  },
+  "train_time": 65.65446949005127
+}
